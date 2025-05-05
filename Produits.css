@@ -1,0 +1,92 @@
+.page {
+  height: 600px;
+  width: 1100px;
+  border-radius: 30px;
+  background-color: #e8e8e8;
+  position: relative;
+  top: 30px;
+}
+
+body {
+  background: linear-gradient(to right, #9b0e6a, #db001c);
+}
+
+img {
+  height: 100px;
+  position: absolute;
+  left: 30px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.input-container input,
+.input-container textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+.clear-animation {
+  position: absolute;
+  right: 110px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Menu défilant */
+.side-menu {
+  position: fixed;
+  left: -350px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  transition: left 0.3s ease;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.side-menu h2 {
+  color: #fff;
+}
+
+.menu-button {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.content {
+  padding-left: 20px;
+}
+
+.tableau {
+  position: relative;
+  left: 50px;
+}
+
+.page {
+  position: relative;
+  left: 200px;
+}
+
+.action-buttons {
+  position: relative;
+  left: 500px;
+  top: 10px;
+}

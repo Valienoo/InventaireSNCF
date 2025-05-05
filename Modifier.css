@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(to right, #9b0e6a, #db001c);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.page {
+  height: 600px;
+  width: 500px;
+  border-radius: 30px;
+  background-color: #e8e8e8;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 30px;
+}
+
+img {
+  height: 200px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.input-container input,
+.input-container textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.input-container input:focus,
+.input-container textarea:focus {
+  border-color: #9b0e6a;
+  outline: none;
+}
+
+.clear-animation {
+  position: absolute;
+  right: 110px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+button.modifier-btn {
+  background-color: #9b0e6a;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 30%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button.modifier-btn:hover {
+  background-color: #db001c;
+}
+
+a {
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+button.annuler-btn {
+  background-color: #9b0e6a;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 30%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button.annuler-btn:hover {
+  background-color: #db001c;
+}
